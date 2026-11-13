@@ -6,8 +6,8 @@ A curated list of tools for improving the reliability of AI agents.
 
 - [Trustabl Agent Reliability Analyzer](https://github.com/trustabl/agent-reliability-analyzer) — Deterministic scanner for detecting agent reliability issues in code before production, with support for major agent frameworks and SDKs.
 - [Trustabl Agent Reliability Rules](https://github.com/trustabl/agent-reliability-rules) — Detection rule packs used by the Trustabl Analyzer to identify reliability, safety, and security risks across agent frameworks and environments.
-- [Trustabl Agent Reliability Skills](https://github.com/trustabl/agent-reliability-skills)
-- [Trustabl Agent Dashboard](https://github.com/trustabl/agent-dashboard)
+- [Trustabl Agent Reliability Skills](https://github.com/trustabl/agent-reliability-skills) — Reusable reliability-focused agent skills and patterns designed to help build safer, more dependable agent behaviors.
+- [Trustabl Agent Dashboard](https://github.com/trustabl/agent-dashboard) — Operational dashboard for monitoring and inspecting agent reliability signals, evaluations, and runtime health.
 
 ## Evaluation and testing
 
