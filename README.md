@@ -2,9 +2,14 @@
 
 A curated list of tools for improving the reliability of AI agents.
 
+## Coding Reliable Agents
+
+- [Trustabl Agent Reliability Analyzer](https://github.com/trustabl/agent-reliability-analyzer) — Deterministic scanner for detecting agent reliability issues in code before production, with support for major agent frameworks and SDKs.
+- [Trustabl Agent Reliability Rules](https://github.com/trustabl/agent-reliability-rules) — Detection rule packs used by the Trustabl Analyzer to identify reliability, safety, and security risks across agent frameworks and environments.
+
 ## Evaluation and testing
 
-- [promptfoo](https://github.com/promptfoo/promptfoo) — Test and evaluate LLM applications with configurable test cases, assertions, and red-team scans.
+- [promptfoo](https://github.com/promptfoo) — Test and evaluate LLM applications with configurable test cases, assertions, and red-team scans.
 - [DeepEval](https://github.com/confident-ai/deepeval) — Open-source evaluation framework with metrics and tests for LLM applications and agents.
 - [Ragas](https://github.com/explodinggradients/ragas) — Evaluation toolkit for LLM applications, including retrieval-augmented generation.
 - [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai) — Evaluation framework for measuring AI capabilities and behavior across tasks.
@@ -26,7 +31,7 @@ A curated list of tools for improving the reliability of AI agents.
 
 ## Agent benchmarks and environments
 
-- [BrowserGym](https://github.com/ ServiceNow/BrowserGym) — Benchmark and environment framework for evaluating web-browsing agents.
+- [BrowserGym](https://github.com/ServiceNow/BrowserGym) — Benchmark and environment framework for evaluating web-browsing agents.
 - [OSWorld](https://github.com/xlang-ai/OSWorld) — Benchmark environment for evaluating agents on realistic computer-use tasks.
 - [τ-bench](https://github.com/sierra-research/tau-bench) — Benchmark for evaluating agents on tool-use tasks in realistic domains.
 - [AgentBench](https://github.com/THUDM/AgentBench) — Benchmark suite for evaluating LLM-based agents across interactive environments.
