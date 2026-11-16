@@ -4,7 +4,8 @@ A curated list of open-source tools for improving the reliability of AI agents.
 
 ## Coding reliable agents
 
-- [Trustabl Agent Reliability Skills](https://github.com/trustabl/agent-reliability-skills) — Reads a repository's dependencies and generates a `SKILL.md` with reliability rules for its agent SDKs, helping coding agents apply them while writing code.
+- [Trustabl Agent Reliability Analyzer](https://github.com/trustabl/agent-reliability-analyzer) — Deterministic, local static analyzer that finds agent reliability gaps across SDKs and languages, and helps apply fixes.
+- [Trustabl Agent Reliability Skills](https://github.com/trustabl/agent-reliability-skills) — Reads a repository's dependencies and generates a `SKILL.md` with reliability rules for its agent SDK.
 
 ## Test and evaluate
 
@@ -30,10 +31,10 @@ A curated list of open-source tools for improving the reliability of AI agents.
 
 ### Sandboxes and access probes
 
-- [Trustabl Agent Network Access Probe](https://github.com/trustabl/agent-network-access-probe) — Runs an agent tool in an OpenShell or Docker sandbox, records the network destinations it contacts, and drafts a least-privilege network policy from that evidence.
+- [Trustabl Agent Network Access Probe](https://github.com/trustabl/agent-network-access-probe) — Runs an agent tool in an OpenShell or Docker sandbox, records the network destinations it contacts.
 - [E2B](https://github.com/e2b-dev/infra) — Cloud sandboxes for running agent-generated code.
 - [NVIDIA OpenShell](https://github.com/NVIDIA/OpenShell) — Sandbox runtime for AI agents with policy-controlled filesystem, network, and process access.
-- [Strands Box](https://github.com/strands-agents/box) — Agent sandbox from AWS with kernel-enforced isolation and policy checks for shell commands, Python, MCP tool calls, and network traffic. Developer preview for macOS.
+- [Strands Box](https://github.com/strands-agents/box) — Agent sandbox from AWS with kernel-enforced isolation and policy checks for shell commands, Python, MCP tool calls, and network traffic.
 
 ### Runtime guardrails
 
@@ -44,7 +45,7 @@ A curated list of open-source tools for improving the reliability of AI agents.
 ## Observe and learn
 
 - [Trustabl Agent OpenTelemetry Rules](https://github.com/trustabl/agent-opentelemetry-rules) — Runtime rules that evaluate agent telemetry for reliability issues, designed to run inside observability platforms.
-- [Trustabl Agent Reliability OTel Labels](https://github.com/trustabl/agent-reliability-otel-labels) — OpenTelemetry labels SDK that adds agent-specific reliability context to traces so observability platforms can evaluate agent behavior.
+- [Trustabl Agent Reliability OTel Labels](https://github.com/trustabl/agent-reliability-otel-labels) — OpenTelemetry labels SDK that adds agent-specific reliability context to traces so observability tools can analyze them.
 - [Arize Phoenix](https://github.com/Arize-ai/phoenix) — AI observability and evaluation built on OpenTelemetry and OpenInference.
 - [Langfuse](https://github.com/langfuse/langfuse) — LLM engineering platform for tracing, evaluations, prompt management, and datasets.
 - [LangWatch](https://github.com/langwatch/langwatch) — LLM operations platform for agent monitoring, evaluation, and optimization.
